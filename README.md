@@ -17,12 +17,12 @@ kernel code that directly interacts with the kernel. That normally means that
 any errors in the code could crash the system! However, since you will be using
 a virtual machine, any failures will at worst only require rebooting the system.
 
-Part II Assignment
+
+
+                  ***Part II Assignment****
 In the module entry point, create a linked list containing five struct birthday elements. Traverse
 the linked list and output its contents to the kernel log buffer. Invoke the dmesg command to ensure
 the list is properly constructed once the kernel module has been loaded. (Provide a screenshot)
 In the module exit point, delete the elements from the linked list and return the free memory back
 to the kernel. Again, invoke the dmesg command to check that the list has been removed once the
 kernel module has been unloaded. (Provide a screenshot)
-Zip your ch2 folder and upload it to D2L: Assessments  Assignments  Programming
-Assignment #1
